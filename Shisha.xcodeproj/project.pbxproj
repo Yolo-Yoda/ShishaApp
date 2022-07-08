@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E78827D2877829400803892 /* ShishaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78827C2877829400803892 /* ShishaApp.swift */; };
+		8E78827F2877829400803892 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78827E2877829400803892 /* MainView.swift */; };
+		8E7882812877829600803892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7882802877829600803892 /* Assets.xcassets */; };
+		8E7882842877829600803892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7882832877829600803892 /* Preview Assets.xcassets */; };
+		8E78828B287782CA00803892 /* HoohanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78828A287782CA00803892 /* HoohanModel.swift */; };
+		8E78828E2877833A00803892 /* HookahnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78828D2877833A00803892 /* HookahnViewModel.swift */; };
+		8E7882902877835A00803892 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78828F2877835A00803892 /* NetworkController.swift */; };
+		8E7882992877848900803892 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8E7882982877848900803892 /* Fonts */; };
+		8E78829C2877850E00803892 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78829A2877850E00803892 /* ProfileView.swift */; };
+		8E78829F2877851800803892 /* MiksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78829E2877851800803892 /* MiksView.swift */; };
+		8E7882A528778D5400803892 /* TabacoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882A428778D5400803892 /* TabacoModel.swift */; };
+		8E7882A728778E5A00803892 /* TabacoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882A628778E5A00803892 /* TabacoViewModel.swift */; };
+		8E7882AD2877920800803892 /* TabacoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882AC2877920800803892 /* TabacoView.swift */; };
+		8E7882AF2877925F00803892 /* HoohkahnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882AE2877925F00803892 /* HoohkahnView.swift */; };
+		8E7882B42877926900803892 /* HoohkahnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882B02877926900803892 /* HoohkahnCell.swift */; };
+		8E7882B62877926900803892 /* HookanCellWidthed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882B22877926900803892 /* HookanCellWidthed.swift */; };
+		8E7882B72877926900803892 /* HookanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882B32877926900803892 /* HookanDetailView.swift */; };
+		8E7882BB287792CC00803892 /* TabacoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882B8287792CC00803892 /* TabacoDetailView.swift */; };
+		8E7882BC287792CC00803892 /* TabacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882B9287792CC00803892 /* TabacoCell.swift */; };
+		8E7882BD287792CC00803892 /* TabacoCellWidthed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882BA287792CC00803892 /* TabacoCellWidthed.swift */; };
+		8E7882C028779AB500803892 /* MiksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882BF28779AB400803892 /* MiksViewModel.swift */; };
+		8E7882C328779EEF00803892 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882C228779EEF00803892 /* AuthViewModel.swift */; };
+		8E7882C728779F4600803892 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882C628779F4600803892 /* LoginModel.swift */; };
+		8E7882C928779F9000803892 /* EnterOnVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882C828779F9000803892 /* EnterOnVIew.swift */; };
+		8E7882CE28779F9800803892 /* GoogleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882CA28779F9800803892 /* GoogleView.swift */; };
+		8E7882CF28779F9800803892 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882CB28779F9800803892 /* PasswordView.swift */; };
+		8E7882D028779F9800803892 /* EnterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882CC28779F9800803892 /* EnterButtonView.swift */; };
+		8E7882D128779F9800803892 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882CD28779F9800803892 /* LoginView.swift */; };
+		8E7882D828779F9F00803892 /* NameSurnameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882D228779F9E00803892 /* NameSurnameView.swift */; };
+		8E7882D928779F9F00803892 /* DateOfBirthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882D328779F9E00803892 /* DateOfBirthView.swift */; };
+		8E7882DA28779F9F00803892 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882D428779F9F00803892 /* EmailView.swift */; };
+		8E7882DB28779F9F00803892 /* RegisterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882D528779F9F00803892 /* RegisterButtonView.swift */; };
+		8E7882DC28779F9F00803892 /* SecondPasswordFillVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882D628779F9F00803892 /* SecondPasswordFillVIew.swift */; };
+		8E7882DD28779F9F00803892 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882D728779F9F00803892 /* DatePickerView.swift */; };
+		8E7882E028779FA300803892 /* RegisterOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882DE28779FA300803892 /* RegisterOnView.swift */; };
+		8E7882E128779FA300803892 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882DF28779FA300803892 /* RegisterView.swift */; };
+		8E7882E42877A0CA00803892 /* MiksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882E32877A0CA00803892 /* MiksModel.swift */; };
+		8E7882E62877A4EE00803892 /* MiksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882E52877A4EE00803892 /* MiksCell.swift */; };
+		8E7882E82877A73F00803892 /* MiksDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7882E72877A73F00803892 /* MiksDetailView.swift */; };
+		8E7882EA2877AB1B00803892 /* ofont.ru_Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E7882E92877AB1B00803892 /* ofont.ru_Montserrat.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E7882792877829400803892 /* Shisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E78827C2877829400803892 /* ShishaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShishaApp.swift; sourceTree = "<group>"; };
+		8E78827E2877829400803892 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8E7882802877829600803892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7882832877829600803892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E78828A287782CA00803892 /* HoohanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoohanModel.swift; sourceTree = "<group>"; };
+		8E78828D2877833A00803892 /* HookahnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahnViewModel.swift; sourceTree = "<group>"; };
+		8E78828F2877835A00803892 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		8E7882982877848900803892 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		8E78829A2877850E00803892 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8E78829E2877851800803892 /* MiksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MiksView.swift; path = ../../../../Diplom/ShishaApp/ShishaApp/View/MainViews/MainViews/MiksView.swift; sourceTree = "<group>"; };
+		8E7882A428778D5400803892 /* TabacoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabacoModel.swift; sourceTree = "<group>"; };
+		8E7882A628778E5A00803892 /* TabacoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabacoViewModel.swift; sourceTree = "<group>"; };
+		8E7882AC2877920800803892 /* TabacoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabacoView.swift; sourceTree = "<group>"; };
+		8E7882AE2877925F00803892 /* HoohkahnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoohkahnView.swift; sourceTree = "<group>"; };
+		8E7882B02877926900803892 /* HoohkahnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoohkahnCell.swift; sourceTree = "<group>"; };
+		8E7882B22877926900803892 /* HookanCellWidthed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookanCellWidthed.swift; sourceTree = "<group>"; };
+		8E7882B32877926900803892 /* HookanDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookanDetailView.swift; sourceTree = "<group>"; };
+		8E7882B8287792CC00803892 /* TabacoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabacoDetailView.swift; sourceTree = "<group>"; };
+		8E7882B9287792CC00803892 /* TabacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabacoCell.swift; sourceTree = "<group>"; };
+		8E7882BA287792CC00803892 /* TabacoCellWidthed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabacoCellWidthed.swift; sourceTree = "<group>"; };
+		8E7882BF28779AB400803892 /* MiksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiksViewModel.swift; sourceTree = "<group>"; };
+		8E7882C228779EEF00803892 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		8E7882C628779F4600803892 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8E7882C828779F9000803892 /* EnterOnVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterOnVIew.swift; sourceTree = "<group>"; };
+		8E7882CA28779F9800803892 /* GoogleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleView.swift; sourceTree = "<group>"; };
+		8E7882CB28779F9800803892 /* PasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		8E7882CC28779F9800803892 /* EnterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterButtonView.swift; sourceTree = "<group>"; };
+		8E7882CD28779F9800803892 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8E7882D228779F9E00803892 /* NameSurnameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameSurnameView.swift; sourceTree = "<group>"; };
+		8E7882D328779F9E00803892 /* DateOfBirthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateOfBirthView.swift; sourceTree = "<group>"; };
+		8E7882D428779F9F00803892 /* EmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		8E7882D528779F9F00803892 /* RegisterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterButtonView.swift; sourceTree = "<group>"; };
+		8E7882D628779F9F00803892 /* SecondPasswordFillVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPasswordFillVIew.swift; sourceTree = "<group>"; };
+		8E7882D728779F9F00803892 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		8E7882DE28779FA300803892 /* RegisterOnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterOnView.swift; sourceTree = "<group>"; };
+		8E7882DF28779FA300803892 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8E7882E32877A0CA00803892 /* MiksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiksModel.swift; sourceTree = "<group>"; };
+		8E7882E52877A4EE00803892 /* MiksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiksCell.swift; sourceTree = "<group>"; };
+		8E7882E72877A73F00803892 /* MiksDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiksDetailView.swift; sourceTree = "<group>"; };
+		8E7882E92877AB1B00803892 /* ofont.ru_Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ofont.ru_Montserrat.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7882762877829400803892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7882702877829400803892 = {
+			isa = PBXGroup;
+			children = (
+				8E78827B2877829400803892 /* Shisha */,
+				8E78827A2877829400803892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E78827A2877829400803892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882792877829400803892 /* Shisha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E78827B2877829400803892 /* Shisha */ = {
+			isa = PBXGroup;
+			children = (
+				8E78827C2877829400803892 /* ShishaApp.swift */,
+				8E7882952877842000803892 /* Views */,
+				8E788292287783AF00803892 /* ViewModels */,
+				8E78828C287782DA00803892 /* Models */,
+				8E7882EB2877AB2100803892 /* Fonts */,
+				8E7882912877838D00803892 /* NetworkLayer */,
+				8E7882802877829600803892 /* Assets.xcassets */,
+				8E7882982877848900803892 /* Fonts */,
+				8E7882822877829600803892 /* Preview Content */,
+			);
+			path = Shisha;
+			sourceTree = "<group>";
+		};
+		8E7882822877829600803892 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882832877829600803892 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E78828C287782DA00803892 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882C628779F4600803892 /* LoginModel.swift */,
+				8E78828A287782CA00803892 /* HoohanModel.swift */,
+				8E7882A428778D5400803892 /* TabacoModel.swift */,
+				8E7882E32877A0CA00803892 /* MiksModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E7882912877838D00803892 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8E78828F2877835A00803892 /* NetworkController.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		8E788292287783AF00803892 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882C228779EEF00803892 /* AuthViewModel.swift */,
+				8E78828D2877833A00803892 /* HookahnViewModel.swift */,
+				8E7882A628778E5A00803892 /* TabacoViewModel.swift */,
+				8E7882BF28779AB400803892 /* MiksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8E7882952877842000803892 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882DF28779FA300803892 /* RegisterView.swift */,
+				8E7882E22877A03700803892 /* componentsRegisterView */,
+				8E78827E2877829400803892 /* MainView.swift */,
+				8E7882AE2877925F00803892 /* HoohkahnView.swift */,
+				8E7882BE287792D400803892 /* componentsHoohkanView */,
+				8E7882AC2877920800803892 /* TabacoView.swift */,
+				8E7882C128779EC400803892 /* componentsTabacoViewModel */,
+				8E78829E2877851800803892 /* MiksView.swift */,
+				8E7882E72877A73F00803892 /* MiksDetailView.swift */,
+				8E7882E52877A4EE00803892 /* MiksCell.swift */,
+				8E78829A2877850E00803892 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E7882BE287792D400803892 /* componentsHoohkanView */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882B02877926900803892 /* HoohkahnCell.swift */,
+				8E7882B22877926900803892 /* HookanCellWidthed.swift */,
+				8E7882B32877926900803892 /* HookanDetailView.swift */,
+			);
+			path = componentsHoohkanView;
+			sourceTree = "<group>";
+		};
+		8E7882C128779EC400803892 /* componentsTabacoViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882B9287792CC00803892 /* TabacoCell.swift */,
+				8E7882BA287792CC00803892 /* TabacoCellWidthed.swift */,
+				8E7882B8287792CC00803892 /* TabacoDetailView.swift */,
+			);
+			path = componentsTabacoViewModel;
+			sourceTree = "<group>";
+		};
+		8E7882E22877A03700803892 /* componentsRegisterView */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882C828779F9000803892 /* EnterOnVIew.swift */,
+				8E7882CC28779F9800803892 /* EnterButtonView.swift */,
+				8E7882D528779F9F00803892 /* RegisterButtonView.swift */,
+				8E7882CA28779F9800803892 /* GoogleView.swift */,
+				8E7882CD28779F9800803892 /* LoginView.swift */,
+				8E7882CB28779F9800803892 /* PasswordView.swift */,
+				8E7882D328779F9E00803892 /* DateOfBirthView.swift */,
+				8E7882D728779F9F00803892 /* DatePickerView.swift */,
+				8E7882D428779F9F00803892 /* EmailView.swift */,
+				8E7882D228779F9E00803892 /* NameSurnameView.swift */,
+				8E7882D628779F9F00803892 /* SecondPasswordFillVIew.swift */,
+				8E7882DE28779FA300803892 /* RegisterOnView.swift */,
+			);
+			path = componentsRegisterView;
+			sourceTree = "<group>";
+		};
+		8E7882EB2877AB2100803892 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E7882E92877AB1B00803892 /* ofont.ru_Montserrat.ttf */,
+			);
+			name = Fonts;
+			path = NetworkLayer/Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7882782877829400803892 /* Shisha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7882872877829600803892 /* Build configuration list for PBXNativeTarget "Shisha" */;
+			buildPhases = (
+				8E7882752877829400803892 /* Sources */,
+				8E7882762877829400803892 /* Frameworks */,
+				8E7882772877829400803892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shisha;
+			productName = Shisha;
+			productReference = 8E7882792877829400803892 /* Shisha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7882712877829400803892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8E7882782877829400803892 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E7882742877829400803892 /* Build configuration list for PBXProject "Shisha" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7882702877829400803892;
+			productRefGroup = 8E78827A2877829400803892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7882782877829400803892 /* Shisha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7882772877829400803892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7882EA2877AB1B00803892 /* ofont.ru_Montserrat.ttf in Resources */,
+				8E7882992877848900803892 /* Fonts in Resources */,
+				8E7882842877829600803892 /* Preview Assets.xcassets in Resources */,
+				8E7882812877829600803892 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7882752877829400803892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7882E128779FA300803892 /* RegisterView.swift in Sources */,
+				8E7882CF28779F9800803892 /* PasswordView.swift in Sources */,
+				8E7882C028779AB500803892 /* MiksViewModel.swift in Sources */,
+				8E7882B72877926900803892 /* HookanDetailView.swift in Sources */,
+				8E7882DD28779F9F00803892 /* DatePickerView.swift in Sources */,
+				8E7882E62877A4EE00803892 /* MiksCell.swift in Sources */,
+				8E7882AD2877920800803892 /* TabacoView.swift in Sources */,
+				8E7882B42877926900803892 /* HoohkahnCell.swift in Sources */,
+				8E7882BB287792CC00803892 /* TabacoDetailView.swift in Sources */,
+				8E7882C728779F4600803892 /* LoginModel.swift in Sources */,
+				8E7882AF2877925F00803892 /* HoohkahnView.swift in Sources */,
+				8E7882C328779EEF00803892 /* AuthViewModel.swift in Sources */,
+				8E7882BC287792CC00803892 /* TabacoCell.swift in Sources */,
+				8E78829C2877850E00803892 /* ProfileView.swift in Sources */,
+				8E7882E028779FA300803892 /* RegisterOnView.swift in Sources */,
+				8E7882DB28779F9F00803892 /* RegisterButtonView.swift in Sources */,
+				8E7882D928779F9F00803892 /* DateOfBirthView.swift in Sources */,
+				8E7882902877835A00803892 /* NetworkController.swift in Sources */,
+				8E7882DC28779F9F00803892 /* SecondPasswordFillVIew.swift in Sources */,
+				8E78827F2877829400803892 /* MainView.swift in Sources */,
+				8E7882E42877A0CA00803892 /* MiksModel.swift in Sources */,
+				8E7882D128779F9800803892 /* LoginView.swift in Sources */,
+				8E7882D028779F9800803892 /* EnterButtonView.swift in Sources */,
+				8E7882B62877926900803892 /* HookanCellWidthed.swift in Sources */,
+				8E7882DA28779F9F00803892 /* EmailView.swift in Sources */,
+				8E7882E82877A73F00803892 /* MiksDetailView.swift in Sources */,
+				8E78829F2877851800803892 /* MiksView.swift in Sources */,
+				8E78828E2877833A00803892 /* HookahnViewModel.swift in Sources */,
+				8E78828B287782CA00803892 /* HoohanModel.swift in Sources */,
+				8E7882C928779F9000803892 /* EnterOnVIew.swift in Sources */,
+				8E78827D2877829400803892 /* ShishaApp.swift in Sources */,
+				8E7882D828779F9F00803892 /* NameSurnameView.swift in Sources */,
+				8E7882BD287792CC00803892 /* TabacoCellWidthed.swift in Sources */,
+				8E7882CE28779F9800803892 /* GoogleView.swift in Sources */,
+				8E7882A728778E5A00803892 /* TabacoViewModel.swift in Sources */,
+				8E7882A528778D5400803892 /* TabacoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E7882852877829600803892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7882862877829600803892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7882882877829600803892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shisha/Preview Content\"";
+				DEVELOPMENT_TEAM = ZU4UB25UN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.Vasilkow.Shisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7882892877829600803892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shisha/Preview Content\"";
+				DEVELOPMENT_TEAM = ZU4UB25UN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.Vasilkow.Shisha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7882742877829400803892 /* Build configuration list for PBXProject "Shisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7882852877829600803892 /* Debug */,
+				8E7882862877829600803892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7882872877829600803892 /* Build configuration list for PBXNativeTarget "Shisha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7882882877829600803892 /* Debug */,
+				8E7882892877829600803892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7882712877829400803892 /* Project object */;
+}
