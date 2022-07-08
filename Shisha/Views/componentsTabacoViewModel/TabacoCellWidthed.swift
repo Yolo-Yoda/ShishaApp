@@ -13,19 +13,22 @@ struct TabacoCellWidthed: View {
                 .cornerRadius(25)
                 .clipped()
             HStack {
-                Text(tabaco.name ?? "error")
-                    .lineLimit(0)
-                    .font(.title2)
-                    .foregroundColor(Color.black)
+                HStack {
+                    Text(tabaco.name ?? "error")
+                        .lineLimit(0)
+                        .font(.title2)
+                        .foregroundColor(Color.black)
+                }
+                .padding(.top,-40)
+                .frame(alignment: .leading)
             }
-            .padding(.top, -40)
-            .frame(alignment: .leading)
-        }
-        .padding(.top, 5)
+            
+        }.padding(.bottom, -10)
+            
         .frame(width: screen.width * 0.8)
         .background(Color.white)
         .cornerRadius(25)
-        .shadow(color: Color("shadowCell"), radius: 1, x: 0, y: 0)
+        .shadow(color: Color("shadowCell"), radius: 5, x: 0, y: 0)
     }
 }
 
