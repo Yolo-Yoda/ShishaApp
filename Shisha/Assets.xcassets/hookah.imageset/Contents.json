@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "png-transparent-key-lime-sweet-lemon-lemon-lime-drink-lime-natural-foods-food-citrus.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "automatic",
+    "template-rendering-intent" : "original"
+  }
+}
