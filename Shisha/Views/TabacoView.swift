@@ -33,7 +33,7 @@ struct TabacoView: View {
                         }
                     }
                 }
-            }
+            }.frame(height: 120)
             
             Section() {
                 LazyVGrid(columns: layout,spacing: 20) {
